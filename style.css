@@ -1,0 +1,80 @@
+/* Basic styling of landing page*/
+
+
+.header, .footer, .main_txt {
+    background-color: #1F2937;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.right, .txt {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.buttons, .info2 {
+    background-color:#3882F6;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.footer {
+    color: #F9FAF8;
+}
+
+/*Adding flex behavior to landing page*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    /* space out the information*/
+    display: flex;
+    justify-content: space-between;
+    padding:16px;
+}
+
+ul {
+    /* remove list item presets*/
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    /*apply flex behavior to list items*/
+    display: flex;
+    gap: 16px;
+
+}
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+.info-block {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
